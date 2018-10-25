@@ -17,7 +17,7 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
+                    "output": "arrests",
                     "type": "csv"
                 }
             ],
@@ -49,6 +49,6 @@
             "name": "merge.R"
         }
     ],
-    "updated_at": "2018-10-25 16:59:25",
+    "updated_at": "2018-10-25 17:03:13",
     "url": "https://github.com/fall2018-wallace/maps1"
 }
