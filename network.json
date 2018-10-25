@@ -33,12 +33,16 @@
             "name": "data.csv"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "manasi30",
             "desc": "",
             "name": "maps.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "arrests.R"
         }
     ],
-    "updated_at": "2018-10-25 16:43:02",
+    "updated_at": "2018-10-25 16:52:14",
     "url": "https://github.com/fall2018-wallace/maps1"
 }
