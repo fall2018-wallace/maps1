@@ -7,22 +7,22 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "states.csv",
-            "target": "maps.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "arrests",
                     "type": "csv"
                 }
             ],
             "source": "maps.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "type": "csv"
+                }
+            ],
+            "source": "states.csv",
+            "target": "maps.R"
         }
     ],
     "nodes": [
@@ -45,10 +45,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "manasi30",
             "desc": "",
-            "name": "merge.R"
+            "name": "merge.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 17:03:13",
+    "updated_at": "2018-10-25 17:10:42",
     "url": "https://github.com/fall2018-wallace/maps1"
 }
