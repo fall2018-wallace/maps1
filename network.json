@@ -57,10 +57,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "manasi30",
             "desc": "",
-            "name": "boxplot.R"
+            "name": "boxplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "barplot.png"
         }
     ],
-    "updated_at": "2018-10-25 17:17:56",
+    "updated_at": "2018-10-25 17:35:59",
     "url": "https://github.com/fall2018-wallace/maps1"
 }
