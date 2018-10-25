@@ -47,12 +47,6 @@
         {
             "assigned_to": "manasi30",
             "desc": "",
-            "name": "merge.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "manasi30",
-            "desc": "",
             "name": "color1.R",
             "task_status": "in progress"
         },
@@ -64,8 +58,14 @@
         },
         {
             "name": "barplot.png"
+        },
+        {
+            "assigned_to": "manasi30",
+            "desc": "data set to merge arrests and USArrest",
+            "name": "merge.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 17:35:59",
+    "updated_at": "2018-10-25 17:46:32",
     "url": "https://github.com/fall2018-wallace/maps1"
 }
