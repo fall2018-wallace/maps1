@@ -42,9 +42,13 @@
             "assigned_to": "manasi30",
             "desc": "",
             "name": "arrests.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "merge.R"
         }
     ],
-    "updated_at": "2018-10-25 16:54:52",
+    "updated_at": "2018-10-25 16:59:25",
     "url": "https://github.com/fall2018-wallace/maps1"
 }
