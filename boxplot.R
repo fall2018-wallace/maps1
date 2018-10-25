@@ -20,6 +20,12 @@ murder.bar2 <- murder.bar2+ theme(axis.text.x =
 murder.bar2 <- murder.bar2 +ggtitle("Total Murders-Sorted")#adding a title
 murder.bar2
 
+murder.scatter <- ggplot(mergedf,aes(x=population,y=percentOver18))#setting the required aesthetics
+murder.scatter <- murder.scatter + geom_point(aes(size=Murder,color=Murder))  #defining the geometry of the plot ie.Scatter plot~geom_point() method and setting size and color with Murder as the aesthetics.
+murder.scatter <- murder.scatter + ggtitle("Murders-Scatter Plot") #adding a title
+murder.scatter
+
+
 
 murder.bar3 <- ggplot(mergedf,aes(x=reorder(stateName,numMurders),y=numMurders,fill=percentOver18))#setting the aesthetics and using fill with values of perecentOver18 which becomes the color reference for the bar.
 murder.bar3 <- murder.bar3 + geom_col() # defining the geometry of the plot ie. Bar chart~geom_col() method
