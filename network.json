@@ -11,7 +11,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "raw_data.csv",
+            "source": "states.csv",
             "target": "clean.R"
         },
         {
@@ -27,7 +27,7 @@
     ],
     "nodes": [
         {
-            "name": "raw_data.csv"
+            "name": "states.csv"
         },
         {
             "name": "clean.R"
@@ -36,6 +36,6 @@
             "name": "data.csv"
         }
     ],
-    "updated_at": "2018-10-25 16:40:21",
+    "updated_at": "2018-10-25 16:42:08",
     "url": "https://github.com/fall2018-wallace/maps1"
 }
